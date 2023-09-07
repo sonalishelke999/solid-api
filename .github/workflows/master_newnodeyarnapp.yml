@@ -21,6 +21,11 @@ jobs:
         with:
           node-version: '16.x'
 
+      # - name: yarn install, build
+      #   run: |
+      #     yarn install --verbose
+      #     yarn build
+
       - name: yarn install, build
         run: |
           yarn install --verbose
